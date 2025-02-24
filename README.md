@@ -24,6 +24,7 @@ git clone https://github.com/hiroki1389/web-app-template.git
 3. `docker-compose.yml`を開く
     1. frontend，backendそれぞれのイメージ名，コンテナ名を好きなようにする
     2. それぞれの`ports`の左側はホスト（ローカルPC）側のポート番号なので，空いているポート番号に設定
+4. client/index.htmlのタイトルを変更するのを忘れない
 4. ビルドしてローカルサーバーを立ち上げる
 ```sh
 docker-compose up --build
